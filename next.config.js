@@ -4,6 +4,11 @@ const nextConfig = {
 
   // Add basePath
   basePath: "/home",
+  experimental: {
+    images: {
+      unoptimized: true,
+    },
+  },
 };
 
 module.exports = nextConfig;
